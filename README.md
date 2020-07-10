@@ -1,6 +1,9 @@
 # GrocerHelp-App
 Common platform for community to help each other to search groceries in this pandemic period
-### [Watch Demo Here 📺](https://youtu.be/nCjWVuVxNC4)
+
+![](https://github.com/NitishGadangi/GrocerHelp-App/blob/master/screenshots/banner.jpg?raw=true)
+
+### [Watch Demo Here 📺](https://youtu.be/6suMOGqcYJY)
 
 ## Inspiration
 
@@ -12,7 +15,12 @@ COVID-19 pandemic panic buying has emptied shelves of basic needs in all superma
 
 GrocerHelp is a community-driven platform that helps users optimise their visit to the supermarket, by informing them about item availability in their nearest shops, while reducing their exposure to the virus, eliminating unnecessary movements to risk areas.
 
-  
+## Screenshots
+![](https://github.com/NitishGadangi/GrocerHelp-App/blob/master/screenshots/ss1.jpg?raw=true)
+
+![](https://github.com/NitishGadangi/GrocerHelp-App/blob/master/screenshots/ss2.jpg?raw=true)
+
+![](https://github.com/NitishGadangi/GrocerHelp-App/blob/master/screenshots/ss3.jpg?raw=true)
 
 ## How I built it
 
