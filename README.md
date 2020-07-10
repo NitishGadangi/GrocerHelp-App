@@ -63,4 +63,4 @@ I also learnt to integrate Firebase in Android.
 
 Add several other stores like pharmaceuticals and restaurants where there is a high chance for crowding.
 
-Made with ❤ by [Nitish Gadangi](nitishgadangi.github.io)
+Made with ❤ by [Nitish Gadangi](https://nitishgadangi.github.io)
