@@ -1,6 +1,7 @@
 # GrocerHelp-App
 
 > Submitting this to HackTheLib for
+>
 > Most Practical/Scalable, Best Impact and Best Design.
 
 Common platform for community to help each other to search groceries in this pandemic period
