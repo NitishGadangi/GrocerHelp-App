@@ -1,10 +1,9 @@
 # GrocerHelp-App
 
-> **Submitting this to HackTheLib for**
->
+> **Submitting this to HackTheLib for** <br>
 > **Most Practical/Scalable, Best Impact and Best Design.**
 >
-> *Special thanks to Judges for taking time out of their schedule to evaluate my project*
+> *Special thanks to Judges for taking time out of their schedule to evaluate my project* <br>
 > *Hope you find my project Interesting*
 
 Common platform for community to help each other to search groceries in this pandemic period
