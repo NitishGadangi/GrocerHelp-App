@@ -3,6 +3,9 @@
 > **Submitting this to HackTheLib for**
 >
 > **Most Practical/Scalable, Best Impact and Best Design.**
+>
+> *Special thanks to Judges for taking time out of their schedule to evaluate my project*
+> *Hope you find my project Interesting*
 
 Common platform for community to help each other to search groceries in this pandemic period
 
