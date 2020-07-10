@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookSlot">
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btn_continue_card1"
+        android:layout_width="0dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="@color/colorGreenActive"
+        fancy:fb_focusColor="@color/colorGrey"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="5dp"
+        fancy:fb_text=""
+        fancy:fb_textColor="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14_card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_bold"
+                android:maxLines="1"
+                android:text="Spencers Daily Store"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView13_card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto"
+                android:text="Vivekananda Nagar, kukatpally"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15_card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto"
+                android:text="7:30am - 10:30pm"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_continue_card1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView16_card1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="stock levels: High"
+                    android:textColor="@color/colorGreenActive"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView17_card1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="last updated : 36min"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/colorGrey"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/texsdtView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Rice  and Wheat :"
+                    android:textColor="@color/blckSpl"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/texdtView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="+ 30 Qty"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/colorGreenActive"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tdextView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Flour  :"
+                    android:textColor="@color/blckSpl"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textVfiew8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="+ 10 Qty"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/colorYellow"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/texstView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Noodle and Pasta :"
+                    android:textColor="@color/blckSpl"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/teaxtView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="+ 25 Qty"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/colorGreenActive"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Bread :"
+                    android:textColor="@color/blckSpl"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textViefw8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="sold out"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/colorRed"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/teaxtView5a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Hand Sanitizers :"
+                    android:textColor="@color/blckSpl"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textViewd8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="+ 30 Qty"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/colorGreenActive"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tewxtView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Cleaning Products"
+                    android:textColor="@color/blckSpl"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="no info"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/colorGrey"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/update_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Click Here to add/update details"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/colorGreenActive"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Book a Slot"
+                android:textAlignment="center"
+                android:textColor="@color/blckSpl"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:text="Shop safer by letting everyone know when you're planning to go."
+                android:textAlignment="center" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="24dp"
+                android:text=" 7:30am - 9:30am ( crowd:low )"
+                android:textColor="@color/blckSpl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="24dp"
+                android:text=" 9:30am - 11:30am ( crowd:high )"
+                android:textColor="@color/blckSpl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="24dp"
+                android:text=" 11:30am - 01:30pm ( crowd:low )"
+                android:textColor="@color/blckSpl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="24dp"
+                android:text=" 01:30pm - 3:30pm ( crowd:low )"
+                android:textColor="@color/blckSpl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="24dp"
+                android:text=" 04:30pm - 7:30pm ( crowd:high )"
+                android:textColor="@color/blckSpl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="24dp"
+                android:text=" 07:30pm - 10:30pm ( crowd:medium )"
+                android:textColor="@color/blckSpl"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                fancy:fb_borderColor="#FFFFFF"
+                fancy:fb_borderWidth="1dp"
+                fancy:fb_defaultColor="@color/colorGreenActive"
+                fancy:fb_focusColor="@color/colorGrey"
+                fancy:fb_iconPosition="left"
+                fancy:fb_radius="5dp"
+                fancy:fb_text=""
+                fancy:fb_textColor="#FFFFFF">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Confirm Slot"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14sp" />
+            </mehdi.sakout.fancybuttons.FancyButton>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

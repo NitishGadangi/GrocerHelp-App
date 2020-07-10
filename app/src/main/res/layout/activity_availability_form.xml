@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AvailabilityForm">
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/btn_continue_card1"
+        android:layout_width="0dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        fancy:fb_borderColor="#FFFFFF"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="@color/colorGreenActive"
+        fancy:fb_focusColor="@color/colorGrey"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="5dp"
+        fancy:fb_text=""
+        fancy:fb_textColor="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14_card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/roboto_bold"
+                android:maxLines="1"
+                android:text="Spencers Daily Store"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView13_card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto"
+                android:text="Vivekananda Nagar, kukatpally"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15_card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto"
+                android:text="7:30am - 10:30pm"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </mehdi.sakout.fancybuttons.FancyButton>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Do you remember the availability of these products in your last visit ?"
+        android:textColor="@color/blckSpl"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_continue_card1" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texstView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Rice and Wheat"
+                        android:textColor="@color/blckSpl"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioBudtton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:text="1-10 Quantity"
+                        android:textColor="@color/blckSpl" />
+
+                    <RadioButton
+                        android:id="@+id/radiaoButton8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:text="10-30  Quantity"
+                        android:textColor="@color/blckSpl" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtkon9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Sold Out"
+                        android:textColor="@color/blckSpl" />
+
+                    <RadioButton
+                        android:id="@+id/radioBdutton10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="I dont Know"
+                        android:textColor="@color/blckSpl" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewp15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Flour"
+                        android:textColor="@color/blckSpl"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/raddioButton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:text="1-10 Quantity"
+                        android:textColor="@color/blckSpl" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtopn8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:text="10-30  Quantity"
+                        android:textColor="@color/blckSpl" />
+
+                    <RadioButton
+                        android:id="@+id/radifoButton9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Sold Out"
+                        android:textColor="@color/blckSpl" />
+
+                    <RadioButton
+                        android:id="@+id/radioButtgon10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="I dont Know"
+                        android:textColor="@color/blckSpl" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/texutView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Hand Sanitizers"
+                        android:textColor="@color/blckSpl"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioBnutton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:text="1-10 Quantity"
+                        android:textColor="@color/blckSpl" />
+
+                    <RadioButton
+                        android:id="@+id/radioBfutton8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:text="10-30  Quantity"
+                        android:textColor="@color/blckSpl" />
+
+                    <RadioButton
+                        android:id="@+id/radiolButton9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Sold Out"
+                        android:textColor="@color/blckSpl" />
+
+                    <RadioButton
+                        android:id="@+id/radioaButton10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="I dont Know"
+                        android:textColor="@color/blckSpl" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="Pasta and Noodles"
+                        android:textColor="@color/blckSpl"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:text="1-10 Quantity"
+                        android:textColor="@color/blckSpl" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:text="10-30  Quantity"
+                        android:textColor="@color/blckSpl" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Sold Out"
+                        android:textColor="@color/blckSpl" />
+
+                    <RadioButton
+                        android:id="@+id/radioButton10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="24dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="I dont Know"
+                        android:textColor="@color/blckSpl" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                fancy:fb_borderColor="#FFFFFF"
+                fancy:fb_borderWidth="1dp"
+                fancy:fb_defaultColor="@color/colorGreenActive"
+                fancy:fb_focusColor="@color/colorGrey"
+                fancy:fb_iconPosition="left"
+                fancy:fb_radius="5dp"
+                fancy:fb_text=""
+                fancy:fb_textColor="#FFFFFF">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Thank You !"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14sp" />
+            </mehdi.sakout.fancybuttons.FancyButton>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
