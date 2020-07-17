@@ -1,6 +1,6 @@
 # GrocerHelp-App
 
-> **Submitting this to HackTheLib for** <br>
+> **Winner of MLH Hackation** <br>
 > **Most Practical/Scalable, Best Impact and Best Design.**
 >
 > *Special thanks to Judges for taking time out of their schedule to evaluate my project* <br>
